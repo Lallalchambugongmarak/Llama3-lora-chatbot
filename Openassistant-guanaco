@@ -1,0 +1,5 @@
+from datasets import load_dataset
+
+# Replace with your dataset
+dataset = load_dataset("timdettmers/openassistant-guanaco", split="train")
+print(dataset[0]) # Check it looks right
